@@ -1,19 +1,66 @@
-header div:first-child{padding: 4%; background: blue; width: 35%; float: left;}
-header div:nth-child(2){padding: 4%; background: greenyellow; width: 35%; float: left;}
-.clear{clear: both; }
-section div:first-child{padding: 4%; background: pink; width: 35%; float: left;}
-section div:nth-child(2){padding: 4%; background: lightgreen; width: 35%; float: left;}
-.clear{clear: both; }
-nav {
-    background-color: blanchedalmond; width: 86%}
-nav ul{margin: 5px; padding: 0;} 
+#logo{
+    padding: 4%; 
+    background: blue;
+     width: 35%;
+      float: left;
+}
+#email{
+    padding: 4%;
+     background: greenyellow; 
+     width: 35%;
+      float: left;
+}
 
- nav ul li {padding: 1%; background: orchid; width: 15%; float: left;margin-left: 5px; list-style: none;}
- nav ul li a{text-decoration: none; display: block; width: 100%}
- nav ul li:hover{background: burlywood;}
+.clear{
+    clear: both; 
+}
+
+.left-side{
+    padding: 4%;
+    background: pink;
+    width: 35%;
+    float: left;
+}
+.right-side{
+    padding: 4%;
+    background: lightgreen; 
+    width: 35%;
+    float: left;
+}
+.clear{
+    clear: both; 
+}
+
+#nav-bar {
+    background-color: blanchedalmond;
+    width: 86%;
+}
+#nav-bar ul{
+    margin: 5px;
+    padding: 0;
+} 
+
+.menu{
+    padding: 1%;
+    background: orchid; 
+    width: 15%; 
+    float: left;
+    margin-left: 5px; 
+    list-style: none;
+}
+
+.menu a{
+    text-decoration: none; 
+    display: block; 
+    width: 100%
+}
+
+.menu:hover{
+    background: burlywood;
+}
 
 
-footer{
+#footer{
     background-color: blanchedalmond;
     padding: 5%;
     width: 76%;
